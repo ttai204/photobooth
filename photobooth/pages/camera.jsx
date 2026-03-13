@@ -23,7 +23,7 @@ export default function CameraPage() {
   return (
     <>
       <Head>
-        <title>PinkBooth – Camera</title>
+        <title>Mì Studio – Camera</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
