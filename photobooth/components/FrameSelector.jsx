@@ -10,7 +10,7 @@ import styles from './FrameSelector.module.css';
 export default function FrameSelector({ frames, selectedFrame, onSelect }) {
   return (
     <div className={styles.wrapper}>
-      <p className={styles.hint}>Choose a frame for your photo strip</p>
+      <p className={styles.hint}>Chọn khung ảnh và kéo xuống cùng để xem kết quả</p>
 
       {/* "No frame" option */}
       <div className={styles.grid}>
@@ -21,7 +21,7 @@ export default function FrameSelector({ frames, selectedFrame, onSelect }) {
           <div className={styles.noFrameThumb}>
             <span>None</span>
           </div>
-          <span className={styles.frameLabel}>No Frame</span>
+          <span className={styles.frameLabel}>Không dùng</span>
         </button>
 
         {frames.map((src) => {
