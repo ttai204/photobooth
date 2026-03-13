@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>PinkBooth - Online Photobooth</title>
+        <title>Mì Studio - Online Photobooth</title>
         <meta name="description" content="Cute online photobooth with filters and frames" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -34,7 +34,7 @@ export default function Home() {
                 <rect x="14" y="8" width="4" height="3" rx="1.5" fill="white"/>
               </svg>
             </div>
-            <span className={styles.logoText}>PinkBooth</span>
+            <span className={styles.logoText}>Made by Mì tôm 2 trứng</span>
           </div>
 
           {/* Headline */}
@@ -44,9 +44,9 @@ export default function Home() {
             <span className={styles.titleAccent}>Photo Booth</span>
           </h1>
           <p className={styles.subtitle}>
-            Capture memories with filters, frames, and photo strips
+            Bắt trọn mọi khoảnh khắc xinh xắn với filter, 
             <br />
-            — all in your browser, no app needed.
+            khung ảnh và photo strip siêu xịn!
           </p>
 
           {/* CTA */}
@@ -58,7 +58,7 @@ export default function Home() {
               <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
               <circle cx="12" cy="13" r="4"/>
             </svg>
-            Start Shooting
+            Bắt đầu chụp ảnh
           </button>
 
           {/* Feature pills */}
@@ -79,7 +79,7 @@ export default function Home() {
                 }} />
               </div>
             ))}
-            <div className={styles.stripLabel}>PinkBooth</div>
+            <div className={styles.stripLabel}>PhotoBooth</div>
           </div>
         </div>
       </main>
