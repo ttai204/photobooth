@@ -44,7 +44,7 @@ export default function FramesPage({ frames }) {
   return (
     <>
       <Head>
-        <title>PinkBooth – Choose Frame</title>
+        <title>Mì Studio – Choose Frame</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
