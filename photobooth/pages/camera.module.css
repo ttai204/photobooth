@@ -1,0 +1,44 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--pink-pale);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 16px;
+  background: white;
+  border-bottom: 1px solid var(--pink-light);
+  box-shadow: 0 2px 12px rgba(255,143,171,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.back { font-size: 0.9rem !important; }
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text);
+}
+.titlePink { color: var(--pink-deep); }
+.spacer { width: 80px; }
+
+.main {
+  flex: 1;
+  padding: 24px 16px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .title { font-size: 1rem; }
+  .spacer { width: 60px; }
+}
